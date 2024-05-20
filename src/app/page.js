@@ -34,7 +34,7 @@ let workData = [
 export default function Home() {
   return (
     <>
-      <p>what is seo in web development</p>
+
       {/* nav bar  start*/}
 
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
