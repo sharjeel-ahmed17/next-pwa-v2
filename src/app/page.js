@@ -137,7 +137,11 @@ export default function Home() {
         </div>
       </div>
       {/* work section end */}
-
+      <div className="container">
+        <div className="row">
+          hello world
+        </div>
+      </div>
       {/* service section start */}
 
 
