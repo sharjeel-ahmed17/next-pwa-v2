@@ -4,13 +4,28 @@
 // import Work from "./components/work/Work";
 // import Service from "./components/service/Service";
 
-import CustomComponet from "./components/CustomComponet";
+import Image from "next/image";
+
+// import CustomComponet from "./components/CustomComponet";
 
 // import Team from "./components/team/Team";
 export default function Home() {
   return (
     <>
-      <CustomComponet />
+      {/* <CustomComponet /> */}
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <Image
+              src={'/public/image/1.png'}
+              width={200}
+              height={200}
+              alt="some image"
+
+            />
+          </div>
+        </div>
+      </div>
       {/* jab tak page componet update nahi hoga */}
 
       {/* <Layout>
