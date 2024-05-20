@@ -23,6 +23,7 @@ export default function Home() {
               alt="some image"
 
             />
+            {/* here is the updated code of next js */}
           </div>
         </div>
       </div>
