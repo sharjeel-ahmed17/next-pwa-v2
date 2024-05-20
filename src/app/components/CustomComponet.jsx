@@ -22,7 +22,7 @@ export const customDataList = [
 const CustomComponet = () => {
     return (
         <div>
-
+            {/* add commet to the others */}
 
             {
                 customDataList.map((item, index) => {
