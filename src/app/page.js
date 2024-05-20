@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <>
       <CustomComponet />
+      {/* jab tak page componet update nahi hoga */}
 
       {/* <Layout>
         <Hero />
