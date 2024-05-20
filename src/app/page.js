@@ -137,16 +137,147 @@ export default function Home() {
         </div>
       </div>
       {/* work section end */}
-      <div className="container">
-        <div className="row">
-          hello world
+
+      {/* service section start */}
+      <div className="container mx-auto my-5">
+        <h2 className="text-center">Services </h2>
+        <div className="row mx-auto w-75">
+          <div className="col-md-6 py-3">
+            <div className="card" style={{ width: "100%" }}>
+              <Image src={HeroImg1} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div className="col-md-6 py-3">
+            <div className="card" style={{ width: "100%" }}>
+              <Image src={HeroImg1} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div className="col-md-6 py-3">
+            <div className="card" style={{ width: "100%" }}>
+              <Image src={HeroImg1} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div className="col-md-6 py-3">
+            <div className="card" style={{ width: "100%" }}>
+              <Image src={HeroImg1} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </p>
+                <a href="#" className="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </div>
-      {/* service section start */}
-
-
-
       {/* service section end */}
+      {/* team  section start*/}
+      <div className="container mx-auto my-5">
+        <h2 className="text-center">our team</h2>
+        <div className="row">
+          <div className="col-md-3 py-2">
+            <Image
+              src={HeroImg1}
+              alt="this is taam memebr 1`"
+              style={
+                {
+                  width: "100%",
+                  height: "500px",
+
+                }
+              }
+            />
+          </div>
+          <div className="col-md-3 py-2">
+            <Image
+              src={HeroImg1}
+              alt="this is taam memebr 1`"
+              style={
+                {
+                  width: "100%",
+                  height: "500px",
+
+                }
+              }
+            />
+          </div>
+          <div className="col-md-3 py-2">
+            <Image
+              src={HeroImg1}
+              alt="this is taam memebr 1`"
+              style={
+                {
+                  width: "100%",
+                  height: "500px",
+
+                }
+              }
+            />
+          </div>
+          <div className="col-md-3 py-2">
+            <Image
+              src={HeroImg1}
+              alt="this is taam memebr 1`"
+              style={
+                {
+                  width: "100%",
+                  height: "500px",
+
+                }
+              }
+            />
+          </div>
+        </div>
+      </div>
+      {/* team  section end*/}
+      {/* footer  start*/}
+      <div className="bg-danger">
+        <div className="container mx-auto">
+          <footer className="text-center py-4 text-white text-uppercase ">all right reversed by sharjeel ahmed</footer>
+        </div>
+
+      </div>
+      {/* footer  end*/}
+
 
     </>
   );
