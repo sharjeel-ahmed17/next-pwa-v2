@@ -11,6 +11,7 @@ const Team = () => {
                 <TeamItem />
                 <TeamItem />
 
+
             </div>
         </div>
     )
