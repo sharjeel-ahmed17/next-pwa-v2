@@ -7,6 +7,7 @@ import Team from "./components/team/Team";
 export default function Home() {
   return (
     <>
+
       <Layout>
         <Hero />
         <Work />
