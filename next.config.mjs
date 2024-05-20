@@ -9,6 +9,8 @@ const withPWA = withPWAInit({
     aggressiveFrontEndNavCaching: true
 });
 
-const nextConfig = {};
+const nextConfig = {
+
+};
 
 export default withPWA(nextConfig);

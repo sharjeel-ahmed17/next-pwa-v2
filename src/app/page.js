@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <CustomComponet />
-      hello woreljl
+
       {/* <Layout>
         <Hero />
         <Work />
