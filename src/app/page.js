@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <>
       {/* updation is here */}
+      {/* update */}
       {/* update the current page */}
 
       <Layout>
