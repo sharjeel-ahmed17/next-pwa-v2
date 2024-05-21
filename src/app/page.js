@@ -7,10 +7,10 @@
 
 import Image from "next/image";
 
-import WORK_IMG_1 from "/public/image/1.png"
-import WORK_IMG_2 from "/public/image/2.png"
-import WORK_IMG_3 from "/public/image/3.png"
-import WORK_IMG_4 from "/public/image/4.jpeg"
+import WORK_IMG_1 from "../../public/image/1.png"
+import WORK_IMG_2 from "../../public/image/2.png"
+import WORK_IMG_3 from "../../public/image/3.png"
+import WORK_IMG_4 from "../../public/image/4.jpeg"
 const workData = [
   {
     imageUrl: WORK_IMG_1,
