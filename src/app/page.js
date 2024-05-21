@@ -11,7 +11,7 @@ import Team from "./components/team/Team";
 export default function Home() {
   return (
     <>
-
+      {/* updation is here */}
 
       <Layout>
         <Hero />
